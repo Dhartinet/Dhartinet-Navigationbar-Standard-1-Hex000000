@@ -1,0 +1,270 @@
+/*
+
+    
+    Dhartinet Navigationbar Standard 1 Hex000000
+
+    Copyright (C) 2018  Faizali H. Mulla
+	
+    This file is part of Dhartinet Navigationbar Standard 1 Hex000000
+	
+    Dhartinet Navigationbar Standard 1 Hex000000 is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Dhartinet Navigationbar Standard 1 Hex000000 is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+	
+	
+    For details about Dhartinet Navigationbar Standard 1 Hex000000 visit <http://www.dhartinet.com>
+    You can mail us at contact@dhartinet.com
+
+    
+    DONOT TAMPER WITH THIS HEADER.
+
+	
+*/
+
+
+
+
+    /*CLASS FOR THE HIGHEST Z-INDEX*/
+    .dhartinet_navigationbar_standard_1_hex000000_e_highest_zindex
+    {
+        z-index: 9999;
+    }
+
+
+    /*DIVISION WITH THIS ID ENCLOSES THE HORIZONTAL NAVIGATION BAR*/
+	#dhartinet_navigationbar_standard_1_hex000000_e_navbar_big
+	{
+		top:0px;
+		left:0px;
+		right:0px;
+	}
+	
+	
+	/*DIVISION WITH THIS ID ENCLOSES THE VERTICAL NAVIGATION BAR*/
+	#dhartinet_navigationbar_standard_1_hex000000_e_navbar_small
+	{
+		display:none;
+	}
+    
+    
+    /*DIVISION WITH THIS ID ENCLOSES THE OPTION LINKS OF THE NAVIGATION BAR(FOR SMALLER SCREENS)*/
+    #dhartinet_navigationbar_standard_1_hex000000_e_navbar_small_show
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+	
+	/*CLASS FOR PROPERTIES OF THE ELEMENT OF THE HEADER ON THE NAVIGATION BAR*/
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_header
+	{
+        padding-left: 3vw;
+        padding-right: 3vw;
+		display:inline-block;   
+	}
+	
+
+    /*CLASS FOR PROPERTIES OF THE ELEMENT OF THE HEADER ON THE NAVIGATION BAR*/
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_header_element
+	{
+        font-size: 2vw;
+        height: 2vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+		display:inline-block;
+        vertical-align: middle;
+	}
+	
+	
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_header_element img
+	{
+		height:2vw;
+	}
+	
+
+	/*CLASS FOR GENERAL PROPERTIES OF THE NAVIGATION BAR*/
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar
+	{	
+		width:100%;
+        height: 3vw;
+		background-color:black;
+		font-family:Arial;
+		color:white;
+		position:fixed;
+		top:0px;
+		left:0px;
+		right:0px;
+	}
+
+
+    /*CLASS FOR THE PROPERTIES OF THE OPTION LINKS OF THE NAVIGATION BAR(FOR BIGGER SCREENS)*/
+    .dhartinet_navigationbar_standard_1_hex000000_e_navbar a
+    {
+        color: white;  
+        text-decoration: none;
+    }
+
+
+    /*CLASS FOR THE PROPERTIES OF THE OPTION LINKS OF THE NAVIGATION BAR(FOR SMALLER SCREENS)*/
+    .dhartinet_navigationbar_standard_1_hex000000_e_navbar_small_option a
+    {
+        color: white;  
+        text-decoration: none;
+    }
+
+	
+	/*CLASS FOR EACH ELEMENT(OPTION) OF THE NAVIGATION BAR*/
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_element 
+	{	
+        height: 1vw;
+		padding-right:3vw;
+		padding-left:3vw;
+		display:inline-block;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+		font-size:1vw;
+        vertical-align: middle;
+    }
+	
+
+	/*CLASS FOR PROPERTIES OF THE DIVISION THAT TOGGLES THE VERTICAL NAVIGATION BAR*/
+	.dhartinet_navigationbar_standard_1_hex000000_e_menu_toggle
+	{
+		float:right;
+        display:inline;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 3rem;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        font-family: arial;
+	font-size:2rem;
+	color:white;
+	background-color:black;
+	border:none;
+
+	}		
+	
+	
+	/*DIVISION THAT HAS THE REST OF THE CONTENT*/
+	#dhartinet_navigationbar_standard_1_hex000000_e_content
+	{
+		margin-top:3vw;
+	}
+	
+
+@media only screen and (max-width:100rem)
+{
+	
+	
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_header_element 
+	{
+        font-size: 2rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        height:2rem;
+	}
+    
+    
+    .dhartinet_navigationbar_standard_1_hex000000_e_navbar_header_element img
+	{
+		height:2rem;
+	}
+	
+
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar
+	{	
+        
+        height: 3rem;
+	}
+
+    
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_element 
+	{	
+        height: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+		font-size:1rem;
+    }
+	
+	
+	#dhartinet_navigationbar_standard_1_hex000000_e_content
+	{
+		margin-top:3rem;
+	}
+    
+    
+}
+
+
+
+	
+@media only screen and (max-width:62.5rem)
+{	
+
+
+	#dhartinet_navigationbar_standard_1_hex000000_e_navbar_big
+	{
+		display:none;
+	}
+
+	
+	#dhartinet_navigationbar_standard_1_hex000000_e_navbar_small
+	{
+		display:block;
+	}
+
+	
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_header
+	{
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+	}
+   
+	
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_small_option
+	{
+		width:100%;
+		display:block;
+		padding-top:0.625rem;
+		padding-bottom:0.625rem;
+        background-color:black;
+		font-family:Arial;
+		color:white;
+        position:absolute;
+        left: 0px;
+        right: 0px;
+		top:3em;
+	}
+	
+	
+	.dhartinet_navigationbar_standard_1_hex000000_e_navbar_element 
+	{
+		padding-right:0px;
+		padding-left:0px;	
+		display:block;
+		border-bottom: 0.0625rem solid #555550;
+	}
+	
+	
+	a:first-child .dhartinet_navigationbar_standard_1_hex000000_e_navbar_element
+	{
+		border-top: 0.0625rem solid #555550;
+	}
+	
+	
+}
